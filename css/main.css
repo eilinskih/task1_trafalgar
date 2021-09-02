@@ -1,0 +1,247 @@
+body {
+    font-family: 'Mulish', sans-serif;
+    background-color: #FFFFFF;
+}
+
+.wrapper-header {
+    margin: 0 auto;
+    max-width: 1247px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+
+}
+
+.nav li {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.nav li a {
+        text-decoration: none;
+        color: #1F1534;
+        font-size: 18px;
+
+}
+
+.nav li a:hover {
+    font-weight: 700;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.logo-img {
+    height: 41px;
+    width: 41px;
+   background-color: #458FF6;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-weight: 700;
+   font-size: 26px;
+   color: #FFFFFF;
+   margin-right: 12px;
+}
+
+.logo-text {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.header-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img {
+    max-width: 693px;
+    max-height: 598px;
+}
+
+.health-card {
+    max-width: 445px;
+    height: 338px;
+}
+
+.health-card p {
+    font-size: 21px;
+    font-weight: 300;
+}
+
+.health-card h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.health-card .btn {
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 1px solid #458FF6; 
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background-color: #458FF6;
+}
+
+.menu {
+    border: none;
+    background: none;
+    display: none;
+}
+
+header .show-menu {
+    display: block;
+    padding-top: 20px;
+    position: absolute;
+    background: rgba(242, 241, 239, 1);
+    left: 0;
+    top: -10px;
+    width: 100%;
+}
+
+header .show-menu .nav li {
+margin: 0 auto;
+}
+
+
+@media (max-width: 1024px) {
+
+header {
+    max-width: 1024px;
+}
+
+    .wrapper-header {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    .header-bottom {
+        display: flex;
+        flex-wrap: wrap;
+       justify-content: center;
+    }
+
+    .health-card {
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       margin-bottom: 50px;
+    }
+
+    img {
+        max-width: 80%;
+        margin-top: 50px;
+       
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+        position: fixed;
+        right: 20px;
+        z-index: 999;
+    }
+
+    .menu img {
+        height: 51px;
+        margin-top: 0;
+    }
+
+
+    .health-card .btn {
+        text-decoration: none;
+        padding: 10px 15px;
+        border: 1px solid #458FF6; 
+        border-radius: 20px;
+        font-size: 38px;
+        font-weight: 700;
+        color: #FFFFFF;
+        background-color: #458FF6;
+
+    
+}
+}
+
+@media (max-width: 480px) {
+header {
+    max-width: 480px;
+}
+
+    .wrapper-header {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    .header-bottom {
+        display: flex;
+        flex-wrap: wrap;
+       justify-content: center;
+    }
+
+    .health-card h1 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .health-card {
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       margin-bottom: 0;
+    }
+
+    img {
+        max-width: 80%;
+       
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+        position: fixed;
+        right: 20px;
+        z-index: 999;
+    }
+
+    .menu img {
+        height: 51px;
+        margin-top: 0;
+    }
+
+
+    .health-card .btn {
+        text-decoration: none;
+        padding: 10px 15px;
+        border: 1px solid #458FF6; 
+        border-radius: 20px;
+        font-size: 21px;
+        font-weight: 700;
+        color: #FFFFFF;
+        background-color: #458FF6;
+
+    
+}
+}
