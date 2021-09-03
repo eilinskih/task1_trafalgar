@@ -1,6 +1,7 @@
 body {
     font-family: 'Mulish', sans-serif;
     background-color: #FFFFFF;
+    color: #7D7987;
 }
 
 .wrapper-header {
@@ -58,6 +59,7 @@ nav {
 .logo-text {
     font-size: 24px;
     font-weight: 700;
+    color: #000000;
 }
 
 .header-bottom {
@@ -84,6 +86,7 @@ img {
 .health-card h1 {
     font-size: 48px;
     font-weight: 700;
+    color: #000000;
 }
 
 .health-card .btn {
@@ -118,9 +121,95 @@ margin: 0 auto;
 }
 
 
-@media (max-width: 1024px) {
+
+.wrapper-cards {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.services {
+    max-width: 952px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.services hr {
+    width: 56px;
+    height: 2px;
+    background-color: #000000;
+    border: none;
+}
+
+.services p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #7D7987;
+}
+
+.services h2 {
+    color: #000000;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.card {
+    width: 350px;
+    height: 354px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    border-radius: 10px;
+    box-shadow: 20px 20px 5px #E5E5E5;
+}
+
+.card img {
+    margin-top: 50px;
+    margin-left: 35px;
+}
+
+.card h3 {
+    margin-left: 35px;
+    color: #000000;
+}
+
+.card p {
+    font-size: 16px;
+    font-weight: 300;
+    margin-left: 35px;
+}
+
+.wrapper-cards .btn {
+    display: block;
+    width: 200px;
+    text-decoration: none;
+    padding: 15px 15px;
+    border: 1px solid #458FF6; 
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #458FF6;
+    margin: 50px auto;
+    text-align: center;
+}
+
+@media (max-width: 1142px) {
+    .card {
+        width: 300px;
+        height: 304px;
+        margin-bottom: 25px;
+        margin-right: 25px;
+        border-radius: 10px;
+        box-shadow: 20px 20px 5px #E5E5E5;
+    }
+}
+@media (max-width: 1026px) {
 header {
-    max-width: 1024px;
+    max-width: 1026px;
 }
 
     .wrapper-header {
@@ -172,6 +261,22 @@ header {
         color: #FFFFFF;
         background-color: #458FF6;
 }
+
+.wrapper-cards {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.card {
+    width: 350px;
+    height: 354px;
+}
+}
+
+@media (max-width: 954px) {
+    .card {
+        width: 100%;
+    } 
 }
 
 @media (max-width: 480px) {
