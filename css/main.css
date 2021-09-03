@@ -120,13 +120,11 @@ header .show-menu .nav li {
 margin: 0 auto;
 }
 
-
-
 .wrapper-cards {
     max-width: 1200px;
     margin: 0 auto;
 }
-
+/*952 исходя из размеров в макете*/
 .services {
     max-width: 952px;
     text-align: center;
@@ -418,6 +416,11 @@ footer .logo .logo-text {
     font-weight: 700;
 }
 
+footer ul li:hover {
+font-weight: 700;
+cursor: pointer;
+}
+
 @media (max-width: 1142px) {
     .card {
         width: 300px;
@@ -524,7 +527,7 @@ header {
     }
 }
 
-@media (max-width: 954px) {
+@media (max-width: 768px) {
     .card {
         width: 100%;
     }
@@ -602,18 +605,18 @@ footer .logo {
 }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 414px) {
 body {
-    max-width: 100vw;
+    max-width: 100%;
     margin: 0;
 }
 
 header {
-    max-width: 480px;
+    max-width: 414px;
 }
 
 main {
-    max-width: 480px;
+    max-width: 414px;
 }
 
     .wrapper-header,.wrapper-testimonials {
