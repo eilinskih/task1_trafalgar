@@ -411,6 +411,11 @@ footer .logo .logo-text {
     list-style-type: none;
 } 
 
+.company, .region, .help hr{
+   background: inherit;
+   border: none;
+} 
+
 .bold {
     font-size: 16px;
     font-weight: 700;
