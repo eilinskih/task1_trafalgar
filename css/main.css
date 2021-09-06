@@ -411,7 +411,7 @@ footer .logo .logo-text {
     list-style-type: none;
 } 
 
-.company, .region, .help hr{
+.company hr, .region hr, .help hr{
    background: inherit;
    border: none;
 } 
